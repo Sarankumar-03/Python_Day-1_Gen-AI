@@ -1,0 +1,38 @@
+name='saran'
+print(name)
+saran
+
+name='saran'
+print('saran')
+saran
+
+A=10
+B=20
+A
+10
+B
+20
+print(A+B)
+30
+A.__add__(B)
+30
+
+type(A)
+<class 'int'>
+float(A)
+10.0
+type(B)
+<class 'int'>
+float(B)
+20.0
+s=str(A)
+print(s)
+10
+type(s)
+<class 'str'>
+A
+10
+s
+'10'
+float(s)
+10.0
