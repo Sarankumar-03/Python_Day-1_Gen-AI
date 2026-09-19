@@ -1,0 +1,48 @@
+name = 'sarankumar'
+print(name)
+sarankumar
+#String Handling: (".")
+name.capitalize()
+'Sarankumar'
+name.isalnum()
+True
+name.rjust(50)
+'                                        sarankumar'
+name.ljust(50)
+'sarankumar                                        '
+name.center(50)
+'                    sarankumar                    '
+#String Indexing:
+#Positive Indexing: ("+")
+name[0:10]
+'sarankumar'
+name[::]
+'sarankumar'
+#Negative Indexing: ("-")
+name[0-10]
+'s'
+name[0-5]
+'k'
+print(name[-10])
+s
+print(name[-5])
+k
+#Reverse Negative Indexing: ("-")
+name[-1::-1]
+'ramuknaras'
+name[::-1]
+'ramuknaras'
+name[9::-1]
+'ramuknaras'
+#Slicing: (Start : Stop)
+name[0:5]
+'saran'
+name[5:10]
+'kumar'
+name[2:5]
+'ran'
+name[6:10]
+'umar'
+#Reverse Negative Slicing: (Start : Stop : Start) "Increment Value"
+name[-6:-11:-1]
+'naras'
